@@ -14,6 +14,7 @@ import CrazyHub from "./Component/CrazyHub/CrazyHub";
 import Wishlist from "./Component/Wishlist";
 import Cart from "./Component/Cart";
 import Location from "./Component/Location";
+import TabMob from "./Component/Hover/TabMob";
 
 const data = [
   {
@@ -173,6 +174,8 @@ const App = () => {
       </BrowserRouter>
       {/* <Location/> */}
       {/* <Cart/> */}
+      
+      {/* <TabMob/> */}
       {/* <Akil/>  */}
       {/* <Form/>  */}
     </div>

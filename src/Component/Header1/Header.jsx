@@ -11,9 +11,11 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosHeart } from "react-icons/io";
 import { IoMdCart } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
+import Location from "./Location";
 
 const Header = () => {
   const [open, setOpen] = useState();
+ 
 
   const handleOpen = () => {
     setOpen(!open);
@@ -22,6 +24,8 @@ const Header = () => {
   const handleClose = () => {
     setOpen(false);
   };
+
+
   const navigate = useNavigate();
   return (
     <div className=" top-0 sticky z-50 ">
@@ -101,9 +105,11 @@ const Header = () => {
           <div className="flex flex-col ml-20 mt-1">
             <div className="text-sm text-white mt-3">Delivery to</div>
             <div className="flex ">
-              <div className=" text-white font-bold ">Location </div>
+              <Location />
+
               <div>
                 <MdLocationPin className="text-white text-xl mt-1" />
+             
               </div>
             </div>
           </div>
@@ -131,19 +137,25 @@ const Header = () => {
             <div className="flex">
               <div className="text-white font-bold">₹0</div>
               <div>
-                <IoMdCart  onClick={() => navigate("/cart")} className="text-white text-xl ml-1  mt-1" />
+                <IoMdCart
+                  onClick={() => navigate("/cart")}
+                  className="text-white text-xl ml-1  mt-1"
+                />
               </div>
             </div>
           </div>
           <div className="flex flex-col ml-36 mt-1">
             <div className="text-white text-sm  mt-3">My Account</div>
-            <div className="flex z-40">
+            <div className="flex ">
               <div className="text-white font-bold" onClick={handleOpen}>
                 Sign In
               </div>
               {open && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-40" onClick={handleClose}>
-                  <form className="grid grid-cols-2 border w-[50%]  bg-white  relative">
+                <div
+                  className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-40"
+                  onClick={handleClose}
+                >
+                  <form className="grid grid-cols-2 border w-[50%]  bg-white  relative" onClick={(e) => e.stopPropagation()}>
                     <div>
                       <img
                         src="https://pub-027efb0add534c4fbed7432cf1c407a1.r2.dev/Assets/login-img.jpeg"
@@ -172,7 +184,6 @@ const Header = () => {
                         <span className="text-blue-500">Privacy & Policy</span>
                       </div>
                     </div>
-
                   </form>
                 </div>
               )}
@@ -189,7 +200,7 @@ const Header = () => {
             <div className="font-semibold mt-1.5">Laptop & Accesories</div>
           </div>
           <div className="  flex items-center justify-center w-24 top-0 ">
-            <div className="w-20 absolute top-1 animate__animated animate__tada animate__infinite infinite ">
+            <div className="w-20   absolute top-1 animate__animated animate__tada animate__infinite infinite ">
               <img
                 src="https://www.crazzyhub.com/static/media/weblogo.77a9ceab0e5b281d7a91.png"
                 alt=""
@@ -198,9 +209,9 @@ const Header = () => {
           </div>
 
           <div className="flex w-[50%]  justify-center gap-5   ">
-            <div className="font-semibold mt-1.5">Tablets & Mobiles</div>
-            <div className="font-semibold mt-1.5">Tv's & Electronics</div>
-            <div className="font-semibold mt-1.5">Laptop & Accesories</div>
+            <div className="font-semibold mt-1.5">Computer & Peripherals</div>
+            <div className="font-semibold mt-1.5">Smart Technology</div>
+            <div className="font-semibold mt-1.5">Mobile Accessories</div>
           </div>
         </div>
       </div>
