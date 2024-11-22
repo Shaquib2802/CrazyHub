@@ -1,6 +1,6 @@
 import React from "react";
 
-const Location = () => {
+const Location1 = () => {
   return (
     <div className="w-[100%]">
     <div className="w-[50%]  flex flex-col mx-auto border border-gray-600 mt-44 rounded-md">
@@ -22,4 +22,4 @@ const Location = () => {
   );
 };
 
-export default Location;
+export default Location1;

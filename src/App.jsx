@@ -13,8 +13,12 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CrazyHub from "./Component/CrazyHub/CrazyHub";
 import Wishlist from "./Component/Wishlist";
 import Cart from "./Component/Cart";
-import Location from "./Component/Location";
-import TabMob from "./Component/Hover/TabMob";
+import Location from "./Component/Location1";
+
+import Card1 from "./Component/Hover/Card1";
+import Practice2 from "./Component/Practice2/Practice2";
+import InnerHeader from "./Component/Header1/InnerHeader";
+
 
 const data = [
   {
@@ -163,7 +167,7 @@ const App = () => {
   return (
     <div>
       <div className="sticky z-50  top-3/4 ">
-        <WhatsAppIcon className="text-white absolute rounded-full bg-green-500 !p-3 !text-6xl right-10  animate__animated animate__pulse animate__infinite infinite  " />
+        <WhatsAppIcon  className="text-white absolute rounded-full bg-green-500 !p-3 !text-6xl right-10  animate__animated animate__pulse animate__infinite infinite  " />
       </div>
       <BrowserRouter>
         <Routes>
@@ -174,10 +178,14 @@ const App = () => {
       </BrowserRouter>
       {/* <Location/> */}
       {/* <Cart/> */}
-      
-      {/* <TabMob/> */}
+      {/* <Practice2/> */}
+      {/* <InnerHeader/> */}
+      {/* <Header/> */}
+      {/* <TabMob1/> */}
+      {/* <Card1/> */}
       {/* <Akil/>  */}
       {/* <Form/>  */}
+      {/* <InnerHeader/> */}
     </div>
   );
 };

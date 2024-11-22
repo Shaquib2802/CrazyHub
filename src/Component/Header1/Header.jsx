@@ -12,6 +12,7 @@ import { IoIosHeart } from "react-icons/io";
 import { IoMdCart } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import Location from "./Location";
+import InnerHeader from "./InnerHeader";
 
 const Header = () => {
   const [open, setOpen] = useState();
@@ -193,14 +194,14 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-9  bg-white shadow-lg mb-5">
+        {/* <div className="flex h-9  bg-white shadow-lg mb-5">
           <div className="flex w-[50%]  justify-center gap-5   ">
             <div className="font-semibold mt-1.5">Tablets & Mobiles</div>
             <div className="font-semibold mt-1.5">Tv's & Electronics</div>
             <div className="font-semibold mt-1.5">Laptop & Accesories</div>
           </div>
-          <div className="  flex items-center justify-center w-24 top-0 ">
-            <div className="w-20   absolute top-1 animate__animated animate__tada animate__infinite infinite ">
+          <div className="  flex items-center justify-center  ">
+            <div className="w-16   absolute top-2 animate__animated animate__tada animate__infinite infinite ">
               <img
                 src="https://www.crazzyhub.com/static/media/weblogo.77a9ceab0e5b281d7a91.png"
                 alt=""
@@ -213,7 +214,8 @@ const Header = () => {
             <div className="font-semibold mt-1.5">Smart Technology</div>
             <div className="font-semibold mt-1.5">Mobile Accessories</div>
           </div>
-        </div>
+        </div> */}
+        <InnerHeader/>
       </div>
     </div>
   );
