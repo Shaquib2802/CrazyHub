@@ -18,6 +18,8 @@ import Location from "./Component/Location1";
 import Card1 from "./Component/Hover/Card1";
 import Practice2 from "./Component/Practice2/Practice2";
 import InnerHeader from "./Component/Header1/InnerHeader";
+import Drawer from "./Component/Drawer";
+import Drawer1 from "./Component/Drawer";
 
 
 const data = [
@@ -183,6 +185,7 @@ const App = () => {
       {/* <Header/> */}
       {/* <TabMob1/> */}
       {/* <Card1/> */}
+      {/* <Drawer1/> */}
       {/* <Akil/>  */}
       {/* <Form/>  */}
       {/* <InnerHeader/> */}
