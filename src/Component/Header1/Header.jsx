@@ -1,7 +1,7 @@
+import "animate.css";
 import React, { useState } from "react";
 import { MdLocationPin } from "react-icons/md";
 import { FaHeart } from "react-icons/fa6";
-import "animate.css";
 import { GoArrowRight } from "react-icons/go";
 import Box from "@mui/material/Box";
 import { MdKeyboardArrowUp } from "react-icons/md";
