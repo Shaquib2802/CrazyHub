@@ -9,7 +9,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['@mui/icons-material', '@mui/icons-material/WhatsApp'],
+      external: ['react-slick'],
     },
   },
 });
