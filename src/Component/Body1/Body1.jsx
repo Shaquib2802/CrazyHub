@@ -1,6 +1,6 @@
 import React from "react";
 import Slider1 from "../Home/Slider/Slider1";
-import MiniSlider from "../Home/Slider/MiniSLider";
+
 import Product from "../Home/Product";
 import Slider2 from "../Home/Slider/Slider2";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
@@ -11,13 +11,13 @@ import Slider4 from "../Home/Slider/Slider4";
 import Product3 from "../Home/Product3";
 import Slider5 from "../Home/Slider/Slider5";
 import Product4 from "../Home/Product4";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 import Slider6 from "../Home/Slider/Slider6";
 import Product5 from "../Home/Product5";
 
-
 import Slider7 from "../Home/Slider/Slider7";
+import MiniSlider from "../Home/Slider/MinSlider";
 
 const data = [
   {
@@ -898,9 +898,8 @@ const data5 = [
 const Body1 = () => {
   return (
     <div className="overflow-hidden ">
-      
       <Slider1 />
-      <MiniSlider />
+      <MiniSlider/>
       <Product items={data} />
       <Slider2 />
       <Product1 items={data1} />

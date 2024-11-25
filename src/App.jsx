@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Component/Header1/Header";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
-import MiniSlider from "./Component/Home/Slider/MiniSLider";
+import MiniSlider from "./Component/Home/Slider/MinSlider";
 import Product from "./Component/Home/Product";
 import Slider1 from "./Component/Home/Slider/Slider1";
 import Body1 from "./Component/Body1/Body1";
@@ -166,7 +166,6 @@ const data = [
 ];
 
 const App = () => {
-  
   return (
     <div>
       {/*  <div className="sticky z-50  top-3/4 ">
