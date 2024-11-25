@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Component/Header1/Header";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 import MiniSlider from "./Component/Home/Slider/MiniSLider";
 import Product from "./Component/Home/Product";
@@ -9,7 +10,7 @@ import Body1 from "./Component/Body1/Body1";
 import Bottom1 from "./Component/Bottom/Bottom1";
 import Akil from "./Component/Header1/Akil";
 import Form from "./Component/Header1/Form";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 import CrazyHub from "./Component/CrazyHub/CrazyHub";
 import Wishlist from "./Component/Wishlist";
 import Cart from "./Component/Cart";
@@ -20,7 +21,6 @@ import Practice2 from "./Component/Practice2/Practice2";
 import InnerHeader from "./Component/Header1/InnerHeader";
 import Drawer from "./Component/Drawer";
 import Drawer1 from "./Component/Drawer";
-
 
 const data = [
   {
@@ -166,11 +166,12 @@ const data = [
 ];
 
 const App = () => {
+  
   return (
     <div>
-      <div className="sticky z-50  top-3/4 ">
-        <WhatsAppIcon  className="text-white absolute rounded-full bg-green-500 !p-3 !text-6xl right-10  animate__animated animate__pulse animate__infinite infinite  " />
-      </div>
+      {/*  <div className="sticky z-50  top-3/4 ">
+        <WhatsAppIcon className="text-white absolute rounded-full bg-green-500 !p-3 !text-6xl right-10  animate__animated animate__pulse animate__infinite infinite  " />
+      </div> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CrazyHub />} />
