@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const InnerHeader = () => {
   const [open, setOpen] = useState();
@@ -51,6 +52,7 @@ const InnerHeader = () => {
   const handleNo4 = () => {
     setYes4(false);
   };
+  const navigate = useNavigate();
   return (
     <div>
       <div className="flex h-10  bg-white shadow-lg ">
@@ -58,7 +60,9 @@ const InnerHeader = () => {
           <div
             onMouseEnter={handleOpen}
             onMouseLeave={handleClose}
+            onClick={() => navigate("/product")}
             className="font-semibold mt-1.5 "
+
           >
             Tablets & Mobiles
           </div>

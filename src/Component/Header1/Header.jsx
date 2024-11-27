@@ -7,8 +7,8 @@ import Box from "@mui/material/Box";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+
+
 import { ImCross } from "react-icons/im";
 import SearchIcon from "@mui/icons-material/Search";
 import { RiAccountCircleFill } from "react-icons/ri";
