@@ -61,22 +61,24 @@ const InnerHeader = () => {
             onMouseEnter={handleOpen}
             onMouseLeave={handleClose}
             onClick={() => navigate("/product")}
-            className="font-semibold mt-1.5 "
-
+            className="font-semibold mt-1.5 cursor-pointer "
           >
             Tablets & Mobiles
           </div>
           <div
             onMouseEnter={handleYes}
             onMouseLeave={handleNo}
-            className="font-semibold mt-1.5"
+            onClick={() => navigate("/product1")}
+            className="font-semibold mt-1.5 cursor-pointer"
           >
             Tv's & Electronics
           </div>
           <div
             onMouseEnter={handleYes1}
             onMouseLeave={handleNo1}
-            className="font-semibold mt-1.5"
+            onClick={() => navigate("/product2")}
+           
+            className="font-semibold mt-1.5 cursor-pointer"
           >
             Laptop & Accesories
           </div>
@@ -177,21 +179,24 @@ const InnerHeader = () => {
           <div
             onMouseEnter={handleYes2}
             onMouseLeave={handleNo2}
-            className="font-semibold mt-1.5"
+            onClick={() => navigate("/product3")}
+            className="font-semibold mt-1.5 cursor-pointer"
           >
             Computer & Peripherals
           </div>
           <div
             onMouseEnter={handleYes3}
             onMouseLeave={handleNo3}
-            className="font-semibold mt-1.5"
+            onClick={() => navigate("/product4")}
+            className="font-semibold mt-1.5 cursor-pointer"
           >
             Smart Technology
           </div>
           <div
             onMouseEnter={handleYes4}
             onMouseLeave={handleNo4}
-            className="font-semibold mt-1.5"
+            onClick={() => navigate("/product5")}
+            className="font-semibold mt-1.5 cursor-pointer"
           >
             Mobile Accessories
           </div>

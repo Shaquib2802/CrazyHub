@@ -9,7 +9,7 @@ import { Divider } from "@mui/material";
 
 const Bottom1 = () => {
   return (
-    <div className="">
+    <div className="border">
       <div className="hidden lg:block">
         <div className="flex justify-center gap-x-10 mt-2 ">
           <div className="flex border border-slate-200 rounded-sm justify-around w-[12%] py-2 px- ">

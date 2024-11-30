@@ -4,9 +4,16 @@ import { FaWhatsapp } from "react-icons/fa";
 import CrazyHub from "./Component/CrazyHub/CrazyHub";
 import Wishlist from "./Component/Wishlist";
 import Cart from "./Component/Cart";
+
 import Header from "./Component/Header1/Header";
-import ProductDetails from "./Component/InnerDetails/ProductDetails";
+import ProductDetails from "./Component/InnerDetails/ProductDetails1";
 import InnerHeader from "./Component/Header1/InnerHeader";
+import ProductDetails1 from "./Component/InnerDetails/ProductDetails1";
+import ProductDetails2 from "./Component/InnerDetails/ProductDetails2";
+import ProductDetails3 from "./Component/InnerDetails/ProductDetails3";
+import ProductDetails4 from "./Component/InnerDetails/ProductsDetails4";
+import ProductDetails5 from "./Component/InnerDetails/ProductsDetails5";
+import ProductDetails6 from "./Component/InnerDetails/ProductDetails6";
 const data = [
   {
     id: 1,
@@ -162,7 +169,12 @@ const App = () => {
           <Route path="/" element={<CrazyHub />} />
           <Route path="/wish" element={<Wishlist />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/product" element={<ProductDetails />} />
+          <Route path="/product" element={<ProductDetails1/>} />
+          <Route path="/product1" element={<ProductDetails2/>} />
+          <Route path="/product2" element={<ProductDetails3/>} />
+          <Route path="/product3" element={<ProductDetails4/>} />
+          <Route path="/product4" element={<ProductDetails5/>} />
+          <Route path="/product5" element={<ProductDetails6/>} />
         </Routes>
       </BrowserRouter>
       {/* <ProductDetails/> */}
