@@ -3,6 +3,7 @@ import Slider from "react-slick";
 
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { IoIosArrowDropleftCircle } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 
 // Custom Left Arrow
 function PrevArrow(props) {
@@ -106,7 +107,7 @@ const Product = ({ items }) => {
       },
     ],
   };
-
+  const navigate = useNavigate();
   return (
     <div className="relative">
       <div className=" w-[100%] m-1 hidden lg:flex ">
@@ -124,7 +125,7 @@ const Product = ({ items }) => {
                 className="w-[96%] mx-auto flex   mt-3  mb-3 gap-x-4 "
               >
                 {items.map((shaquib) => (
-                  <div className=" relative border border-gray-3 rounded-md  bg-white">
+                  <div className=" relative border border-gray-3 rounded-md  bg-white"  onClick={() => navigate("/productsp6")}>
                     <div>
                       <img
                         className="h-40 w-32 mx-auto mt-4"

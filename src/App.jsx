@@ -14,6 +14,7 @@ import ProductDetails3 from "./Component/InnerDetails/ProductDetails3";
 import ProductDetails4 from "./Component/InnerDetails/ProductsDetails4";
 import ProductDetails5 from "./Component/InnerDetails/ProductsDetails5";
 import ProductDetails6 from "./Component/InnerDetails/ProductDetails6";
+import ProductSp1 from "./Component/ProductSpec/ProductSp1";
 const data = [
   {
     id: 1,
@@ -160,9 +161,9 @@ const data = [
 const App = () => {
   return (
     <div>
-      <div className="sticky z-50  top-3/4 ">
+      {/* <div className="sticky z-50  top-3/4 ">
         <FaWhatsapp className="text-white absolute rounded-full bg-green-500 !p-3 !text-6xl right-10  animate__animated animate__pulse animate__infinite infinite  " />
-      </div>
+      </div> */}
 
       <BrowserRouter>
         <Routes>
@@ -175,9 +176,11 @@ const App = () => {
           <Route path="/product3" element={<ProductDetails4/>} />
           <Route path="/product4" element={<ProductDetails5/>} />
           <Route path="/product5" element={<ProductDetails6/>} />
+          <Route path="/productsp6" element={<ProductSp1 />} />
         </Routes>
       </BrowserRouter>
       {/* <ProductDetails/> */}
+      
       {/* <Location/> */}
       {/* <Cart/> */}
       {/* <Practice2/> */}
