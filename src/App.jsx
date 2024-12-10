@@ -1,4 +1,6 @@
 import React from "react";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 import CrazyHub from "./Component/CrazyHub/CrazyHub";
