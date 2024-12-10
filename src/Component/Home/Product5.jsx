@@ -31,7 +31,7 @@ function NextArrow(props) {
 
 const Product5 = ({ items }) => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 3000,
     slidesToShow: 5,

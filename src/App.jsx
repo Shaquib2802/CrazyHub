@@ -15,6 +15,10 @@ import ProductDetails4 from "./Component/InnerDetails/ProductsDetails4";
 import ProductDetails5 from "./Component/InnerDetails/ProductsDetails5";
 import ProductDetails6 from "./Component/InnerDetails/ProductDetails6";
 import ProductSp1 from "./Component/ProductSpec/ProductSp1";
+import ProductSp2 from "./Component/ProductSpec/ProductSpec2";
+import ProductSp3 from "./Component/ProductSpec/ProductSpec3";
+import ProductSp4 from "./Component/ProductSpec/ProductsSpec4";
+import ProductSp5 from "./Component/ProductSpec/ProductSpec5";
 const data = [
   {
     id: 1,
@@ -170,17 +174,21 @@ const App = () => {
           <Route path="/" element={<CrazyHub />} />
           <Route path="/wish" element={<Wishlist />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/product" element={<ProductDetails1/>} />
-          <Route path="/product1" element={<ProductDetails2/>} />
-          <Route path="/product2" element={<ProductDetails3/>} />
-          <Route path="/product3" element={<ProductDetails4/>} />
-          <Route path="/product4" element={<ProductDetails5/>} />
-          <Route path="/product5" element={<ProductDetails6/>} />
-          <Route path="/productsp6" element={<ProductSp1 />} />
+          <Route path="/product" element={<ProductDetails1 />} />
+          <Route path="/product1" element={<ProductDetails2 />} />
+          <Route path="/product2" element={<ProductDetails3 />} />
+          <Route path="/product3" element={<ProductDetails4 />} />
+          <Route path="/product4" element={<ProductDetails5 />} />
+          <Route path="/product5" element={<ProductDetails6 />} />
+          <Route path="/productsp1" element={<ProductSp1 />} />
+          <Route path="/productsp2" element={<ProductSp2 />} />
+          <Route path="/productsp3" element={<ProductSp3 />} />
+          <Route path="/productsp4" element={<ProductSp4 />} />
+          <Route path="/productsp5" element={<ProductSp5 />} />
         </Routes>
       </BrowserRouter>
       {/* <ProductDetails/> */}
-      
+
       {/* <Location/> */}
       {/* <Cart/> */}
       {/* <Practice2/> */}

@@ -40,7 +40,7 @@ function NextArrow(props) {
 
 function MiniSlider() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     cssEase: "linear",
     speed: 1000,

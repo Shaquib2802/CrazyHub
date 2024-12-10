@@ -16,7 +16,7 @@ import { HiOutlineEye } from "react-icons/hi";
 import { IoIosArrowForward } from "react-icons/io";
 import Bottom1 from "../Bottom/Bottom1";
 
-const inner = [
+const inner1 = [
   {
     id: 1,
     title: "OPPO Reno12",
@@ -29,7 +29,7 @@ const inner = [
     stock: "In-Stock",
 
     thumbnail:
-      "https://crazzyhub.s3.amazonaws.com/media/product_variant/Vivo-y18i-space-black-64gb-4gb-ram-Front-Back-View.webp",
+      "https://crazzyhub.s3.amazonaws.com/media/product_variant/Xiaomi_Smart_TV_X_Pro_Series_q9oUtEZ.jpg",
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const inner = [
     stock: "In-Stock",
 
     thumbnail:
-      "https://crazzyhub.s3.amazonaws.com/media/product_variant/samsung-galaxy-z-fold-6-5g-pink-512gb-12gb-ram-back-fold.webp",
+      "https://crazzyhub.s3.amazonaws.com/media/product_variant/OnePlus-Y1S-Edge-LED-Smart-Android-TV-front1-view_I4gEDAR.jpg",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const inner = [
     stock: "In-Stock",
 
     thumbnail:
-      "https://crazzyhub.s3.amazonaws.com/media/product_variant/ec64eb41a8e787a798be1b71c13a51bb.webp",
+      "https://crazzyhub.s3.amazonaws.com/media/product_variant/Xiaomi_Smart_TV_X_Pro_Series_q9oUtEZ.jpg",
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ const inner = [
     stock: "In-Stock",
 
     thumbnail:
-      "https://crazzyhub.s3.amazonaws.com/media/product_variant/157773-800-auto.webp",
+      "https://crazzyhub.s3.amazonaws.com/media/product_variant/Xiaomi_Smart_TV_X_Series.jpg",
   },
   {
     id: 5,
@@ -85,7 +85,7 @@ const inner = [
     stock: "In-Stock",
 
     thumbnail:
-      "https://crazzyhub.s3.amazonaws.com/media/product_variant/Vivo-y18i-space-black-64gb-4gb-ram-Front-Back-View.webp",
+      "https://crazzyhub.s3.amazonaws.com/media/product_variant/Xiaomi_Smart_TV_X_Series.jpg",
   },
   {
     id: 6,
@@ -99,7 +99,7 @@ const inner = [
     stock: "In-Stock",
 
     thumbnail:
-      "https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_riTDfqm_yEavMsw.jpg",
+      "https://crazzyhub.s3.amazonaws.com/media/product_variant/OnePlus-Y-Series-Y1s-Pro-4K-Smart-LED-Android-TV-43-inches-Front_MccR0Zf_QvN4Y76.jpg",
   },
 ];
 
@@ -128,7 +128,7 @@ function NextArrow(props) {
   );
 }
 
-const ProductSp1 = () => {
+const ProductSp2 = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -214,7 +214,7 @@ const ProductSp1 = () => {
         <div className="w-[40%] ">
           <div>
             <img
-              src="https://crazzyhub.s3.amazonaws.com/media/product_variant/ec64eb41a8e787a798be1b71c13a51bb.webp"
+              src="https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_-_2023-03-21T171953.jpg"
               alt="Shaquib"
               className="border"
             />
@@ -223,8 +223,43 @@ const ProductSp1 = () => {
             <div>
               <IoIosArrowBack className="border rounded-full  text-3xl text-gray-500 mt-4 font-mono border-gray-500 pr-1" />
             </div>
-            <div className="w-[80%]">
-              <NewScroll />
+            <div className="w-[80%] flex  gap-x-2">
+              <div className="border-2  border-rose-400">
+                <img
+                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant_image/New_Project_-_2023-03-21T171953.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="border-2">
+                <img
+                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant_image/New_Project_-_2023-03-21T171933.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="border-2">
+                <img
+                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant_image/New_Project_-_2023-03-21T171915.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="border-2">
+                <img
+                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant_image/New_Project_-_2023-03-21T171901.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="border-2">
+                <img
+                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant_image/New_Project_-_2023-03-21T171845.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="border-2">
+                <img
+                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant_image/New_Project_-_2023-03-21T171731.jpg"
+                  alt=""
+                />
+              </div>
             </div>
             <div>
               <IoIosArrowForward className="border rounded-full  text-3xl text-gray-500 mt-4 font-mono border-gray-500 pl-1" />
@@ -244,7 +279,7 @@ const ProductSp1 = () => {
             In-stock
           </div>
           <div className="flex ml-6 gap-x-3">
-            <div className="text-orange-500 text-xl font-bold">₹19,999</div>
+            <div className="text-orange-500 text-xl font-bold">₹25,999</div>
             <div className="text-base mt-0.5 line-through">M.R.P: 20999</div>
             <div className="text-white bg-green-500 rounded-md font-semibold p-1 text-sm">
               4.76%
@@ -270,47 +305,24 @@ const ProductSp1 = () => {
             <div className="flex flex-col border-2 border-orange-500 rounded-md p-1 mt-2 ">
               <div className="ml-2 w-14 h-12">
                 <img
-                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant/ec64eb41a8e787a798be1b71c13a51bb.webp"
+                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant/New_Project_-_2023-03-21T171953.jpg"
                   alt=""
                   className="w-11"
                 />
               </div>
-              <div className="text-xs text-center ">Mega Blue</div>
-            </div>
-            <div className="flex flex-col border-2 border-gray-300 rounded-md p-1 mt-2 ">
-              <div className="ml-2 w-14 h-12">
-                <img
-                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant/ec64eb41a8e787a798be1b71c13a51bb.webp"
-                  alt=""
-                  className=" w-11"
-                />
-              </div>
-              <div className="text-xs text-center">Mega Blue</div>
-            </div>
-            <div className="flex flex-col border-2 border-gray-300 rounded-md p-1 mt-2 ">
-              <div className="">
-                <img
-                  src="https://crazzyhub.s3.amazonaws.com/media/product_variant/ec64eb41a8e787a798be1b71c13a51bb.webp"
-                  alt=""
-                  className="w-11"
-                />
-              </div>
-              <div className="text-xs text-center ">Mega Blue</div>
+              <div className="text-xs text-center ">Black</div>
             </div>
           </div>
-          <div className="ml-6 mt-1 font-semibold">RAM</div>
-          <div className="ml-6 border-2 border-orange-500 w-12 text-sm h-10 p-1.5 rounded-md ">
-            8 GB
-          </div>
-          <div className="ml-6 mt-2 font-semibold">Storage</div>
-          <div className="flex gap-x-4">
-            <div className="ml-6 border-2 border-orange-500 w-16 text-sm h-10 px-3.5 py-2 rounded-md ">
-              128
+          <div className="ml-6 mt-1 font-semibold">DIsplay Size</div>
+          <div className="flex">
+            <div className="ml-6 border-2  w-20 p-1.5 font-semibold text-sm h-10  rounded-md ">
+              40 inches
             </div>
-            <div className="border-2 border-gray-300 w-16 text-sm h-10 px-3.5 py-2 rounded-md ">
-              256
+            <div className="ml-6 border-2 border-orange-500 w-20 text-sm h-10 p-1.5 rounded-md ">
+              43 inches
             </div>
           </div>
+
           <div className="bg-gray-100 w-[90%]  ml-6 flex  mt-8 lg:mt-3 h-10 py-2 relative justify-between">
             <div className="ml-2 text-gray-900 font-semibold text-base">
               Delivery Options:
@@ -405,7 +417,7 @@ const ProductSp1 = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#fef2e6] ] text-[#e0b98e] h-8   justify-around sticky top-28 z-50 hidden lg:flex  ">
+      <div className="bg-[#fef2e6]  text-[#e0b98e] h-8   justify-around sticky top-28 z-50 hidden lg:flex  ">
         <div className="flex mt-1 gap-x-1">
           <div>
             <HiOutlineEye className="text-xl font-semibold mt-0.5" />
@@ -493,14 +505,14 @@ const ProductSp1 = () => {
                       {...settings}
                       className="w-[96%] mx-auto flex   mt-3  mb-3 gap-x-4 "
                     >
-                      {inner.map((shaquib) => (
+                      {inner1.map((shaquib) => (
                         <div
                           key={shaquib}
                           className=" relative border border-gray-3 rounded-md  bg-white"
                         >
                           <div>
                             <img
-                              className="h-40 w-32 mx-auto mt-4"
+                              className="h-40 w-40 mx-auto mt-4"
                               src={shaquib.thumbnail}
                             />
                           </div>
@@ -545,11 +557,11 @@ const ProductSp1 = () => {
                     {...settings1}
                     className="w-[90%] mx-auto mt-3  mb-3 gap-x-4 "
                   >
-                    {inner.map((shaquib) => (
+                    {inner1.map((shaquib) => (
                       <div className="border border-gray-3 rounded-md  bg-white">
                         <div>
                           <img
-                            className="h-40 w-32 mx-auto mt-4"
+                            className="h-40 w-36 mx-auto mt-4"
                             src={shaquib.thumbnail}
                           />
                         </div>
@@ -588,4 +600,4 @@ const ProductSp1 = () => {
   );
 };
 
-export default ProductSp1;
+export default ProductSp2;

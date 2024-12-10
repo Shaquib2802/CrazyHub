@@ -36,9 +36,9 @@ const Product = ({ items }) => {
     dots: true,
     infinite: true,
     speed: 3000,
-   
+
     slidesToShow: 5,
-    autoplay: true,
+    autoplay: false,
     slidesToScroll: 4,
     nextArrow: <NextArrow />, // Custom next arrow
     prevArrow: <PrevArrow />, // Custom previous arrow
@@ -125,7 +125,10 @@ const Product = ({ items }) => {
                 className="w-[96%] mx-auto flex   mt-3  mb-3 gap-x-4 "
               >
                 {items.map((shaquib) => (
-                  <div className=" relative border border-gray-3 rounded-md  bg-white"  onClick={() => navigate("/productsp6")}>
+                  <div
+                    className=" relative border border-gray-3 rounded-md  bg-white"
+                    onClick={() => navigate("/productsp2")}
+                  >
                     <div>
                       <img
                         className="h-40 w-32 mx-auto mt-4"
